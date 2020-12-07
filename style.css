@@ -1,17 +1,17 @@
 
 .buyform {
     width: 425px;
-    height: 725px; 
+    
     display: block;
     background-color: #a1bd3b;
-    padding: 20px 20px 0 20px;
+    padding: 10px 20px 0 20px;
     border-radius: 5px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 12px;
-    font-weight: 600;
-    color: #414141;
-   
+    font-weight: 550;
+    color: #353535;
 }
+
 .card,
 .fname,
 .email,
@@ -22,19 +22,15 @@
     background-color: rgba(255, 255, 255, 0.37);
     padding-right: 75px;
     padding-left: 10px;
-    padding-bottom: px;
+    
+    padding-top: 10px;
     margin: 2px;
-    color: rgb(0, 0, 0);
+    color: #353535;
    
 }
 
 .address {
-    border: solid 1px #ffffff07;
-    border-radius: 3px;
-    float: right;
-    padding-right: 35px;
-  
-   
+    float: left;  
 }
 
 .fname_box,
@@ -44,36 +40,48 @@
     border-radius: 3px;
     float: right;
     padding-right: 35px;
-    height: 20px;
-   
-    
+    height: 20px;   
+}
+.text_box {
+    resize: vertical;
+    overflow: auto;
+    border: solid 2px #ffffff8e;
+    border-radius: 4px;
+    padding-right: 25px;
+    padding-left: 100px;
+    margin-left: 70px;
+    padding-inline-start: 15px;
 }
 .cardtype {
     padding-top: 5px;
     border: solid 2px #ffffff8e;
     border-radius: 4px;
     background-color: rgba(255, 255, 255, 0.37);
-    
+    color: #353535;
     padding-left: 10px;
-    padding-bottom: 11px;
-    margin: 2px;
-   
-    
-}
-.form-check-inline {
-  
-    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin: 2px;}
 
-}
+ .form-check-inline {
+      padding-right: 30px;
+      padding-top: 5px;
+    }
 
 
 .button {
-    padding: 3px 30px;
-    background-color: #414141;
-
-    border-radius: 20px;
-    font-size: 20px;
+    background-color: #313131ec;
+    border: none;
+    border-radius: 45px;
     color: white;
+    padding: 3px 30px;
+    text-align: center;
+    letter-spacing: 1px;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-weight: lighter;
 }
 body {
     display: flex;
@@ -82,5 +90,21 @@ body {
 }
 
 h6 {
-    font-weight: 900;
+    padding: 5px;
+    font-weight: bolder;
 }
+
+.buy_it {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+.steps {
+    padding: 5px;
+    font-size: 16px;
+    color: #353535d8;
+    text-align: justify;
+    
+
+}
+

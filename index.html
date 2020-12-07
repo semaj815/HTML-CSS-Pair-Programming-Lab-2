@@ -12,33 +12,31 @@
     
     <div class="buyform">
         <form>
-            <div id="section1">
-                <h6>Step 1: Your details</h6>
-
+            <div>
+                <section class="steps">Step 1: Your details</section>
                 <div class="fname">
-                <label for="fname_box">Name</label>
-                <input class="fname_box" type="text" name="fname_box"><br>
+                    <label for="fname_box">Name</label>
+                    <input class="fname_box" type="text" name="fname_box"><br>
                 </div>
 
                 <div class="email">
                     <label for="email_box">Email</label>
-                <input class="email_box" type="text" name="email_box"><br>
+                    <input class="email_box" type="text" name="email_box"><br>
                 </div>
 
-               <div class="phone">
-                <label for="phone_box">Phone</label>
-                <input class="phone_box" type="tel" id="phone_box" name="phone_box" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+                <div class="phone">
+                    <label for="phone_box">Phone</label>
+                    <input class="phone_box" type="tel" id="phone_box" name="phone_box" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
                </div>
                
-            </div>
+             </div>
 
-            <div id="section2">
-                <h6>Step 2: Delivery address</h6>
-
+            <div>
+                <section class="steps">Step 2: Delivery address</section>
                 <div class="fname">
-                <label for="address">Address</label>
-                <textarea class="fname_box" name="address" rows="10" cols="22"></textarea>
-                
+                <label class="address">Address</label>
+                <textarea class="text_box" name="text_box" cols="18"></textarea>
+
                 </div>
 
                 <div class="email">
@@ -53,10 +51,8 @@
                
             </div>
 
-            <div id="section3">
-                <h6>Step 3: Card details</h6>
-
-                    <div>
+            <div>
+                <section class="steps">Step 3: Card details</section>
                         <div class="cardtype">
                             <label >Card type</label><br>
 
@@ -73,18 +69,6 @@
                                     <label class="form-check-label" for="inlineRadio3">Mastercard</label>
                             </div>
                         </div>
-            
-                        
-                        <!-- <input type="radio" id="visa" name="cardtype" value="visa">
-                        <label for="visa">VISA</label>
-
-                        <input type="radio" id="amex" name="cardtype" value="amex">
-                        <label for="amex">AmEx</label>
-
-                        <input type="radio" id="mastercard" name="cardtype" value="mastercard">
-                        <label for="mastercard">Mastercard</label><br> -->
-                    </div>
-
                 <div class="fname">
                     <label for="fname_box">Card number</label>
                     <input class="fname_box" type="text" name="fname_box"><br>
@@ -98,16 +82,13 @@
                <div class="phone">
                 <label for="phone_box">Name on card</label>
                 <input class="phone_box" type="tel" id="phone_box" name="phone_box" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
-               </div>
-
-               
- 
-
-
-               
+               </div>      
             </div>
             
-            <button type="button" class="button">BUY IT!</button>
+            <div class="buy_it">
+                <button class="button" type="submit">BUY IT!</button>
+              </div>
+
         </form>
     </div>
     <!-- <div class="grid">
