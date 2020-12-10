@@ -39,8 +39,8 @@
                 <form action="/my-handling-form-page" method="post">
                     <ul>
                      <li>
-                       <label for="address">Address</label>
-                       <textarea id="add" name="user_address"></textarea>
+                       <label for="address" id="addrs">Address</label>
+                       <textarea name="user_address"></textarea>
                      </li>
                      <li>
                        <label for="post_code">Post Code</label>
@@ -54,20 +54,23 @@
                    </form>
             
             <legend>Step 3: Card details</legend>
-                <div class="container"
+                <div class="container">
                     
                     <form action="/my-handling-form-page" method="post"> 
                         <div class="radio-inline">
                                 <label for="card_type">Card type</label><br>
-                                <label for="visa">
-                                  <input type="radio" name="optradio">VISA
-                                </label>
-                                <label for="amex">
-                                  <input type="radio" name="optradio">AmEx
-                                </label>
-                                <label for="MC">
-                                  <input type="radio" name="optradio">Mastercard
-                                </label>
+                                <div class="card-container">
+                                    <label for="visa">
+                                        <input type="radio" name="optradio">VISA
+                                      </label>
+                                      <label for="amex">
+                                        <input type="radio" name="optradio">AmEx
+                                      </label>
+                                      <label for="MC">
+                                        <input type="radio" name="optradio">Mastercard
+                                      </label>
+                                </div>
+                            
                               
                             </div>
                             
@@ -81,7 +84,7 @@
                                  </li>
                                  <li>
                                    <label for="name_card">Name on card</label>
-                                   <input type="Country" placeholder="Exact name as on card">
+                                   <input type="name_card" placeholder="Exact name as on card">
                                  </li>
                                 </ul>
                                </form>

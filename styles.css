@@ -3,13 +3,15 @@
 
 .wrapper {
     
-    width: 425px; 
-    display: block;
+    width: 435px; 
+    display: flexbox;
     background-color: #a1bd3b;
-    padding: 10px 20px 0 20px;
+    padding: 5px 10px 5px 10px;
     border-radius: 5px;
     margin: auto;
     font-family: serif;
+    
+    
 
 
 } 
@@ -21,6 +23,8 @@ ul li {
     border-radius: 5px;
     margin-bottom: 2px;
     margin-top: 2px;
+    padding: 7px;
+    
 
 }
 
@@ -29,50 +33,91 @@ input {
 }
 
 
+
 label {
     width:100px;
     
 }
 
+textarea {
+    padding-right: 20px;
+
+}
+
 input:placeholder-shown {
     font-style: italic;
+    padding-right: 35px;
  }
 
 .radio-inline {
+    width:100%;
     border: solid 2px #ffffff8e;
     background-color: rgba(255, 255, 255, 0.37);
-}
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+    
+  }
+
+
 
 .form-check, .form-check-inline  {
     border: solid 2px #ffffff8e;
-    background-color: rgba(255, 255, 255, 0.37);     
+    background-color: rgba(255, 255, 255, 0.37);
+    border-radius: 10px;
+    
+  }
+    
+  .card-container {
+      display: flex;
+  }
+       
 
-}
+
 
 #btn-style {
-    background-color: #313131ec;
+    background-color: #770000ec;
     border: none;
-    border-radius: 10px;
+    border-radius: 15px;
     color: white;
     padding: 3px 30px;
     text-align: center;
     letter-spacing: 1px;
     font-size: 20px;
-    margin: 4px 2px;
+    margin: 4px 2px ;
     cursor: pointer;
     font-weight: lighter;
-    
+    text-shadow:
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+     -1px 1px 0 #000,
+      1px 1px 0 #000;
+    display: block;
+    margin:auto;
   }
 
   legend {
-    color:  #313131ec;
+    color:  #770000ec;
     font-weight: bold;
+    text-shadow: -1px -1px 0 #000,  
+     
+     
+      
   }
 
 
-.container {
-    text-align: left;
-        
-        
-  }
+  /* .container {
+  } */
 
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  ul, ol {
+      padding:0;
+      list-style: none;
+      margin:0;
+      width:100%;
+      padding-left: 0 !important;
+  }
